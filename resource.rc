@@ -1,0 +1,44 @@
+#include <windows.h>
+
+1 VERSIONINFO
+FILEVERSION 0, 0, 3, 0
+PRODUCTVERSION 0, 0, 3, 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041103A4"
+    BEGIN
+      //VALUE "Comments", "\000"
+      //VALUE "CompanyName", "\000"
+      VALUE "FileDescription", "uvd  ver 0.0.3\000"
+      VALUE "FileVersion", "0.0.3\000"
+      VALUE "InternalName", "uvd.exe\000"
+      VALUE "LegalCopyright", "Copyright (c) 2011  U.Nakamura\000"
+      VALUE "OriginalFilename", "uvd.exe\000"
+      //VALUE "LegalTrademarks", "\000"
+      VALUE "ProductVersion", "0.0.3\000"
+      VALUE "ProductName", "uvd.exe\000"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x411, 932
+  END
+END
+
+
+0x100 MENU
+BEGIN
+  POPUP ""
+  BEGIN
+    MENUITEM "èIóπ(&X)", IDCLOSE
+  END
+END
+
+0x101 ICON DISCARDABLE "1.ico"
+0x102 ICON DISCARDABLE "2.ico"
+0x103 ICON DISCARDABLE "3.ico"
+0x104 ICON DISCARDABLE "4.ico"
